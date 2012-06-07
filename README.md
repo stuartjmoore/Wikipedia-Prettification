@@ -12,6 +12,8 @@ Luckily, Wikipedia lets you upload your own CSS and JS to customize every page t
 
 Log into Wikipedia and visit your [Appearance page](http://en.wikipedia.org/wiki/Special:Preferences#mw-prefsection-rendering). Select MySkin and paste in the custom CSS and JS respectively.
 
+I’ve only tested and ran on Chrome, so it very likely will break on other browers.
+
 ## Clear Vertical Reading Line, 24px Rythem, Cleaner Typeface
 
 Wikipedia articles are too all over the place. The infobox and images shift the paragraphs too far right and left, forcing your eye back and forth and hurting scannablity. Like a lot of webpages, the line height of paragraphs is far too small and the width is far too long (usually a percentage of the window size). 
@@ -59,3 +61,4 @@ Some simple JS code to make the articles a little prettier. Hyphenation keeps th
 - Combine Tools and Print drop-down
 - Get rid of horizontal scrolling on all pages
 - Better alert boxes
+- Code for non-Chrome browsers
