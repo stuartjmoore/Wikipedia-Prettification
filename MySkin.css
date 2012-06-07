@@ -1,0 +1,609 @@
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+
+#content
+{
+	width: 560px;
+	margin: 194px auto 0 auto;
+
+	font-family: 'Lora', serif;
+	font-size: 14px;
+}
+
+p, ul, ol
+{
+	font-size: 1em;
+	line-height: 1.7143em;
+	margin: 0 0 1.7143em 0 !important;
+}
+
+h1
+{
+	font-size: 1.7143em; 
+	line-height: 1em;
+	margin: 0 0 1.17em 0 !important;
+}
+
+h2
+{
+	font-size: 1.2857em;
+	line-height: 1.3333em;
+	margin: -0.1429em 0 1.45em 0 !important;
+	text-align: center;
+}
+
+h3
+{
+	font-size: 1.1428571429em; 
+	line-height: 1.7143em;
+	margin: -0.2142857143em 0 1.5em 0 !important;
+}
+
+h4
+{
+	font-size: 1em; 
+	line-height: 1.7143em;
+	margin: -0.07142857143em 0 1.7857142857em 0 !important;
+}
+h5
+{
+	font-size: 1em; 
+	line-height: 1.7143em;
+	margin: -0.07142857143em 0 1.7857142857em 0 !important;
+	font-style: italic;
+}
+h6
+{
+	font-size: 1em; 
+	line-height: 1.7143em;
+	margin: -0.07142857143em 0 1.7857142857em 0 !important;
+	font-style: italic;
+}
+
+.rellink
+{
+	margin-top: -1.7142857143em;
+	margin-bottom: 0;
+	color: #666;
+	text-align: right;
+}
+
+a
+{
+	color: #004dc1;
+}
+p a, ul a, ol a, .rellink a, .dablink a
+{
+	color: #666;
+}
+p:hover a, ul:hover a, ol:hover a, .rellink:hover a, .dablink:hover a
+{
+	color: #004dc1;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+
+#p-logo
+{
+	position: absolute;
+	top: 0;
+	background-image: url(http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png);
+	left: 20px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0 -85px;
+}
+#p-logo a
+{
+	background-image: url(http://upload.wikimedia.org/wikipedia/commons/c/c2/Encyclopedie_tekst.png) !important;
+	-webkit-mask-image: url(http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png);
+	-webkit-mask-position: 0 -85px;
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-size: 100%;
+	width: 250px;
+	height: 96px;
+	background-color: rgba(255, 255, 255, 0.75);
+	display: block;
+	z-index: 1;
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: 13px 28px;
+}
+
+#p-navigation
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom: 1px solid #DDDADA;
+	width: 100%;
+	height: 96px;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #F6F6F6));
+	z-index: -1;
+	box-shadow: inset 0 -1px 0 white, 0 -5px 7px 2px #666;
+
+	font-weight: bold;
+	font-size: 0.8571428571em;
+	font-family: "Helvetica Neue", Arial, Helvetica, "Lucida Grande", sans-serif;
+}
+#p-navigation .pBody
+{
+	width: 560px;
+	position: relative;
+	left: 50%;
+	top: 5px;
+	margin-left: -280px;
+	font-size: 90%;
+}
+#p-navigation h5, #p-navigation #n-mainpage-description
+{
+	display:none !important;
+}
+#p-navigation ul
+{
+	height: 40px;
+	list-style-type: none;
+	padding: 0;
+	padding-top: 11px;
+	text-align: center;
+	line-height: 1em;
+}
+#p-navigation ul:hover a
+{
+	color: #666;
+}
+#p-navigation ul a:hover
+{
+	color: black;
+	text-decoration: none;
+}
+#p-navigation li
+{
+	margin: 10px;
+	display: inline;
+}
+
+#p-search
+{
+	position: absolute;
+	top: 48px;
+	width: 560px;
+	left: 50%;
+	margin-left: -280px;
+}
+#p-search #searchInput
+{
+	width: 100%;
+	border: 1px solid #CCC;
+	height: 30px;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F7F7F7), color-stop(1, #FFFFFF));
+	font-size: 14px;
+	padding-left: 10px;
+}
+#p-search h5, #p-search .searchButton
+{
+	display:none;
+}
+
+/*Tabs*/
+#p-cactions
+{
+	position: absolute;
+	top: 118px;
+	left: 50%;
+	width: 600px;
+	margin-left: -300px;
+	height: 40px;
+	background-image: -webkit-linear-gradient(top, #F9F9F9 0%, #FFFFFF 100%);
+	box-shadow: inset 0 1px 0 white, 0 -1px 3px -2px #666;
+	border-top: 1px solid #ECECEC;
+	border-left: 1px solid #ECECEC;
+	border-right: 1px solid #ECECEC;
+	border-bottom: 0;
+
+	font-size: 0.8571428571em !important;
+	font-family: "Helvetica Neue", Arial, Helvetica, "Lucida Grande", sans-serif;
+}
+#p-cactions h5
+{
+	display:none;
+}
+#p-cactions ul
+{
+	height: 40px;
+	list-style-type: none;
+	padding: 0;
+	line-height: 1em;
+}
+#p-cactions ul:hover a
+{
+	color: #666;
+}
+#p-cactions ul a:hover
+{
+	color: black;
+	text-decoration: none;
+}
+#p-cactions li
+{
+	float: left;
+	margin-left: 20px;
+	margin-top: 12px;
+	text-transform: lowercase;
+}
+#p-cactions li.selected
+{
+	font-weight: bold;
+}
+
+/* Personal drop down */
+#p-personal
+{
+	font-family: "Helvetica Neue",Arial,Helvetica;
+	font-size: 0.7857142857em !important;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	width: 200px;
+}
+#p-personal h5
+{
+	cursor: pointer;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0 !important;
+	color: #666;
+	text-align: right;
+}
+#p-personal .pBody
+{
+	background-color: white;
+	box-shadow: 0 2px 6px #CCC;
+	display: none;
+	opacity: 0.95;
+	text-align: left;
+}
+#p-personal ul
+{
+	list-style: none;
+	padding: 10px 15px;
+}
+#p-personal:hover .pBody
+{
+	display:block;
+}
+
+/* Tools drop down */
+#p-tb
+{
+	font-family: "Helvetica Neue",Arial,Helvetica;
+	font-size: 0.8571428571em !important;
+	position: absolute;
+	top: 127px;
+	left: 50%;
+	width: 200px;
+	margin-left: 120px;
+}
+#p-tb h5
+{
+	cursor: pointer;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0 !important;
+	color: #666;
+	text-transform: lowercase;
+}
+#p-tb .pBody
+{
+	background-color: white;
+	box-shadow: 0 2px 6px #CCC;
+	display: none;
+	opacity: 0.95;
+}
+#p-tb ul
+{
+	list-style: none;
+	padding: 10px 15px;
+}
+#p-tb:hover .pBody
+{
+	display:block;
+}
+
+/* Print drop down */
+#p-coll-print_export
+{
+	font-family: "Helvetica Neue",Arial,Helvetica;
+	font-size: 0.8571428571em !important;
+	position: absolute;
+	top: 127px;
+	left: 50%;
+	width: 200px;
+	margin-left: 175px;
+}
+#p-coll-print_export h5
+{
+	cursor: pointer;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0 !important;
+	color: #666;
+	text-transform: lowercase;
+}
+#p-coll-print_export .pBody
+{
+	background-color: white;
+	box-shadow: 0 2px 6px #CCC;
+	display: none;
+	opacity: 0.95;
+}
+#p-coll-print_export ul
+{
+	list-style: none;
+	padding: 10px 15px;
+}
+#p-coll-print_export:hover .pBody
+{
+	display:block;
+}
+
+/* Language drop down */
+#p-lang
+{
+	font-family: "Helvetica Neue",Arial,Helvetica;
+	font-size: 0.8571428571em !important;
+	position: absolute;
+	top: 127px;
+	left: 50%;
+	width: 200px;
+	margin-left: 224px;
+}
+#p-lang h5
+{
+	cursor: pointer;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0 !important;
+	color: #666;
+	text-transform: lowercase;
+}
+#p-lang .pBody
+{
+	background-color: white;
+	box-shadow: 0 2px 6px #CCC;
+	display: none;
+	opacity: 0.95;
+}
+#p-lang ul
+{
+	list-style: none;
+	padding: 10px 15px;
+}
+#p-lang:hover .pBody
+{
+	display:block;
+}
+
+.dablink
+{
+	padding: 0;
+	margin: 0.1428571429em 0 -0.1428571429em 0;
+	font-size: 0.8571428571em;
+}
+
+#siteSub
+{
+	display:none;
+}
+
+#bodyContent
+{
+	line-height: 1.7143em;
+}
+
+.reflist
+{
+	-webkit-column-count: 1 !important;
+	display: inline !important;
+}
+ol.references, div.reflist, div.refbegin 
+{
+	font-size: 1em;
+}
+#catlinks 
+{
+	line-height: 1.7142857143em;
+}
+
+#toc
+{
+	font-size: 0.8em;
+	line-height: 1.8em; 
+	position: absolute;
+	top: 243px;
+}
+#toc tbody
+{
+	margin-left: -1000000px;
+	margin-right: 50px;
+	float: right;
+	max-width: 330px;
+}
+#toc h2
+{
+	display: none;
+}
+#toc ul
+{
+	list-style-type: none;
+	padding-left: 1em !important;
+	margin: 0 !important;
+	line-height: 2.19em;
+}
+#toc a
+{
+	color: #004dc1;
+}
+#toc .tocnumber
+{
+	display: none;
+}
+
+.toctoggle
+{
+	display:none;
+}
+
+.infobox th[scope="row"]
+{
+	text-align: right !important;
+}
+
+.thumb.tright, .infobox
+{
+	clear: both;
+	margin: 4px 0 4px 1em;
+	margin-right: -600px;
+	position: relative;
+	left: 600px;
+	float: left;
+}
+
+.thumb.tleft
+{
+	clear: both;
+	margin: 4px 0 4px 1em;
+	margin-left: -600px;
+	position: relative;
+	right: 600px;
+	float: right;
+}
+
+.thumbinner
+{
+	width: 200px !important;
+	border: 1px solid #eee;
+	padding: 5px;
+}
+.thumbinner img
+{
+	width: 100% !important;
+	height: auto !important;
+}
+
+.thumbcaption
+{
+	font-size:0.75em;
+	line-height:1.7em;
+	margin-top: 5px;
+}
+
+.ambox
+{
+	width: 560px;
+	margin: 15px 0 !important;
+}
+/*
+body.mediawiki table.mbox-small
+{
+	clear: both;
+	margin: 4px 0 4px 1em;
+	margin-right: -600px;
+	position: relative;
+	left: 600px;
+	float: left;
+}
+*/
+.editsection, .articleFeedback-panel, .magnify
+{
+	display:none;
+}
+
+.os-suggest
+{
+	box-shadow: 0 5px 10px #CCC;
+	border-top: 0;
+	width: 571px;
+}
+.os-suggest-results .os-suggest-result
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.os-suggest-results span
+{
+	padding-left: 10px;
+	font-family: "Helvetica Neue", Arial, Helvetica, "Lucida Grande", sans-serif;
+	font-size: 1em;
+}
+
+/* Footer */
+#p-interaction
+{
+	text-align: center;
+	font-size: 0.8571428571em;
+}
+#p-interaction h5
+{
+	display: none;
+}
+#p-interaction ul
+{
+	list-style: none;
+	margin: 3.4285714286em 0 0.5em 0 !important;
+}
+#p-interaction li
+{
+	display: inline;
+}
+#footer
+{
+	text-align: center;
+	font-size: 0.8571428571em;
+}
+#footer ul
+{
+	list-style: none;
+	line-height: 1.75em;
+}
+#f-copyrightico, #f-poweredbyico, #footer .noprint, #footer #privacy, #footer #about, #footer #disclaimer, #footer #mobileview
+{
+	display: inline;
+}
+
+/* iPad */
+@media only screen and (device-width: 768px)
+{
+	body
+	{
+		overflow-x: hidden;
+	}
+	#p-logo
+	{
+		background-position: 0 10px;
+	}
+	#p-logo a
+	{
+		width: 75px;
+		background-position: 5px 45px;
+		-webkit-mask-position: 0 10px;
+	}
+
+	.thumb.tright, .infobox
+	{
+		margin-right: -75px;
+		left: 10px;
+		float: right;
+	}
+	.thumb.tleft
+	{
+		margin-left: -75px;
+		right: 10px;
+		float: left;
+	}
+	.thumbinner
+	{
+		width: 100px !important;
+	}
+}
