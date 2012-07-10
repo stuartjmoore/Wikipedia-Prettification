@@ -14,6 +14,10 @@ Log into Wikipedia and visit your [Appearance page](http://en.wikipedia.org/wiki
 
 I’ve only tested and ran on Chrome, so it very likely will break on other browers.
 
+## Help Out
+
+This is one of my side-side-side-projects, so any and all help is welcome and encouraged. Pull, commit, push, repeat. I'd like this to be a community driven project.
+
 ## Clear Vertical Reading Line, 24px Rhythm, Cleaner Typeface
 
 Wikipedia articles are too all over the place. The infobox and images shift the paragraphs too far right and left, forcing your eye back and forth and hurting scannablity. Like a lot of webpages, the line height of paragraphs is far too small and the width is far too long (usually a percentage of the window size). 
