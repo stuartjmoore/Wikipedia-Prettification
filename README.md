@@ -1,6 +1,6 @@
 # Wikipedia Prettification
 
-I love Wikipedia. I must visit it every day to discover something I just heard about (or catch-up on a history lession that I missed in high school).
+I love Wikipedia. I must visit it every day to discover something I just heard about (or catch-up on a history lesson that I missed in high school).
 
 But I don’t like the layout.
 
